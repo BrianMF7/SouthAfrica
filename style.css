@@ -1,0 +1,171 @@
+body{
+  color: #5a5a5a;
+}
+h1 {
+  text-align: center;
+}
+.jumbotron{
+  background-image:url(https://t4.ftcdn.net/jpg/03/69/88/01/360_F_369880150_bPgd8ekmATFqwwhKZySFCSHl4giV2xRT.jpg);
+  background-size: cover;
+    opacity:.7;
+    color:rgb(0, 0, 0);
+}
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+ .navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.earth {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 72px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+  transform: translateY(-20%);
+
+}
+
+.earth:after {
+ position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: -20px -20px 50px 2px #000 inset;
+  border-radius: 50%;
+}
+
+.earth > div {
+  width: 200%;
+  height: 100%;
+  animation: spin 30s linear alternate infinite;
+  background: url(https://www.ncl.ucar.edu/Applications/Scripts/EarthMap_2500x1250.jpg);
+  /*orginal image at https://www.ncl.ucar.edu/Applications/Scripts/EarthMap_2500x1250.jpg */
+  background-size: cover;
+}
+@keyframes spin {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.start {
+  text-align: center;
+  margin-bottom:1em;
+  margin-top:2em;
+   color:black;
+  font-style: italic;
+}
+
+
+.old {
+  text-align: center;
+  padding:3em;
+  font-size:25px;
+  color:black;
+  font-style: italic;
+}
+
+
+
+.kill {
+  border-radius:15%;
+   width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ye {
+  color:black;
+  font-style: italic;
+  padding-bottom: 2em;
+}
+
+
+
+h3{
+text-align: center;
+}
+
+//.container {
+  display:flex;
+  
+}
+
+.union {
+  font-size:25px;
+   color:black;
+}
+
+
+  .celebrate {
+   width: 350px;
+  height:350px;
+  margin-right:5em;
+  float: left;
+
+}
+
+.nice {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+   .ok {
+     color:#7FF06D;
+   } 
+
+
+.future{
+  font-size:25px;
+  padding:3em;
+  color:black;
+  font-style: italic;
+  
+}
+
+
+.footer {
+  padding: 30px 0;
+  color: rgb(165, 161, 161);
+   font-size:20px;
+  text-align: center;
+  background-color: #7FF06D;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+.good {
+  color:black;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
